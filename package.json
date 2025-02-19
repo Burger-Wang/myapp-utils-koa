@@ -1,0 +1,11 @@
+{
+  "name": "utils-koa",
+  "version": "1.0",
+  "description": "Hello koa webapp.",
+  "type": "module",
+  "dependencies": {
+    "@koa/bodyparser": "^5.1.1",
+    "@koa/router": "^13.1.0",
+    "koa": "^2.15.4"
+  }
+}
