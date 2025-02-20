@@ -15,6 +15,8 @@ app.use(async (ctx, next) => {
   await next();
 });
 
+console.log('我真的有更新啊')
+
 app.use(router.routes());
 app.listen(3000);
 console.log("start Koa port:3000");
