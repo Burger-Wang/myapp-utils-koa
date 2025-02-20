@@ -9,4 +9,3 @@ export default {
   "POST&/login": login,
 };
 
-// https://api.lolimi.cn/API/huangj/api.php  金价查询

@@ -1,9 +1,9 @@
-import { getFileList } from "./../utils/index.mjs";
+import { getFileList } from "../utils/index.js";
 
 const addModules = async (router, controllerDir) => {
   // 扫描controller目录:
 
-  const files = await getFileList("./controller", ".mjs");
+  const files = await getFileList("./controller", ".js");
   files.forEach(async (file) => {
     // 导入模块:
     let { default: mapping } = await import(`./${file}`);

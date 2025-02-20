@@ -3,9 +3,14 @@
   "version": "1.0",
   "description": "Hello koa webapp.",
   "type": "module",
+  "scripts": {
+    "start": "pm2 start app.js --watch",
+    "build": "node app.js"
+  },
   "dependencies": {
     "@koa/bodyparser": "^5.1.1",
     "@koa/router": "^13.1.0",
-    "koa": "^2.15.4"
+    "koa": "^2.15.4",
+    "koa2-request": "^1.0.4"
   }
 }
