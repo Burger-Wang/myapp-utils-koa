@@ -11,6 +11,7 @@ const router = new Router();
 await addModules(router, "controller");
 
 app.use(async (ctx, next) => {
+  ctx.body = 'Hello World';
   await next();
 });
 
