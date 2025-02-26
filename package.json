@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "start": "pm2 start app.js --watch",
-    "build": "node app.js"
+    "build": "node app.js",
+    "git-test": "git add . && git commit -m 'test commit' && git push origin main"
   },
   "dependencies": {
     "@koa/bodyparser": "^5.1.1",
