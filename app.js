@@ -13,7 +13,7 @@ const router = new Router();
 await addModules(router, "controller");
 
 app.use(async (ctx, next) => {
-  ctx.body = 'Hello World, test Koa, test update 226';
+  ctx.body = 'Hello World, test Koa, test update 2b26';
   await next();
 });
 
