@@ -6,11 +6,12 @@
   "scripts": {
     "start": "pm2 start app.js --watch",
     "build": "node app.js",
-    "git-test": "git add . && git commit -m 'test commit' && git push origin main"
+    "git-test": "git add . && git commit -m 一键提交 && git push origin main"
   },
   "dependencies": {
     "@koa/bodyparser": "^5.1.1",
     "@koa/router": "^13.1.0",
+    "dayjs": "^1.11.13",
     "koa": "^2.15.4",
     "koa2-request": "^1.0.4"
   }
